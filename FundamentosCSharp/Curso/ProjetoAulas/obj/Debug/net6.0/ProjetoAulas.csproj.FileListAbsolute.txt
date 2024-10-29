@@ -1,0 +1,15 @@
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\bin\Debug\net6.0\ProjetoAulas.exe
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\bin\Debug\net6.0\ProjetoAulas.deps.json
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\bin\Debug\net6.0\ProjetoAulas.runtimeconfig.json
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\bin\Debug\net6.0\ProjetoAulas.dll
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\bin\Debug\net6.0\ProjetoAulas.pdb
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\obj\Debug\net6.0\ProjetoAulas.csproj.AssemblyReference.cache
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\obj\Debug\net6.0\ProjetoAulas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\obj\Debug\net6.0\ProjetoAulas.AssemblyInfoInputs.cache
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\obj\Debug\net6.0\ProjetoAulas.AssemblyInfo.cs
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\obj\Debug\net6.0\ProjetoAulas.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\obj\Debug\net6.0\ProjetoAulas.dll
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\obj\Debug\net6.0\refint\ProjetoAulas.dll
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\obj\Debug\net6.0\ProjetoAulas.pdb
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\obj\Debug\net6.0\ProjetoAulas.genruntimeconfig.cache
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\obj\Debug\net6.0\ref\ProjetoAulas.dll

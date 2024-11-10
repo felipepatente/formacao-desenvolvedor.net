@@ -21,6 +21,9 @@
             Console.WriteLine(valorFloat);
             Console.WriteLine(flag);
             Console.WriteLine(ativo);
+
+            const string descricao = "Curso CSHARP";
+            Console.WriteLine(descricao);
         }
     }
 }

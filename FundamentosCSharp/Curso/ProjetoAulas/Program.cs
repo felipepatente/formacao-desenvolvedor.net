@@ -4,12 +4,29 @@
     {
         static void Main(string[] args)
         {
-            var numero1 = 1;
-            var numero2 = 2;
+            EscreverNome();
+        }
 
-            bool ativo = true;
-            string status = ativo ? "Cadastro Ativo" : "Cadastro inativo";            
-            Console.WriteLine(status);
+        static string NomeCompleto() 
+        {
+            string primeiroNome = "Felipe";
+            string segundoNome = "Patente";
+
+            return primeiroNome + " " + segundoNome;
+        }
+
+        static int SomaValores()
+        {
+            return 8 + 2;
+        }
+
+        static void EscreverNome()
+        {
+            var nome = NomeCompleto();
+            var soma = SomaValores();
+
+            Console.WriteLine(nome);
+            Console.WriteLine(soma);
         }
     }
 }

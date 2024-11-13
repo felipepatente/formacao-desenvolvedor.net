@@ -7,17 +7,23 @@
             var numero1 = 1;
             var numero2 = 2;
 
-            var soma = numero1 + numero2;
-            Console.WriteLine(soma);
+            bool igual = numero1 == numero2;
+            Console.WriteLine(igual);
 
-            var subtracao = numero2 + numero1;
-            Console.WriteLine(subtracao);
+            bool maior = numero2 > numero1;
+            Console.WriteLine(maior);
 
-            var multiplicacao = (numero2 * numero1) * 10;
-            Console.WriteLine(multiplicacao);
+            bool menor = numero2 < numero1;
+            Console.WriteLine(menor);
 
-            var divisao = numero2 / numero1;
-            Console.WriteLine(divisao);
+            bool menorOuIgual = numero2 <= numero1;
+            Console.WriteLine(menorOuIgual);
+
+            bool maiorOuIgual = numero2 >= numero1;
+            Console.WriteLine(maiorOuIgual);
+
+            bool diferente = numero2 != numero1;
+            Console.WriteLine(diferente);
         }
     }
 }

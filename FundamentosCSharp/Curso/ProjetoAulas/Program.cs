@@ -4,26 +4,20 @@
     {
         static void Main(string[] args)
         {
-            int idade = 33;
-            string nomePessoa = "Felipe Patente";
-            decimal valor = 200.99m;
-            double valorDouble = 200.99;
-            float valorFloat = 200.99f;
-            var idadeNova = 34;
-            char flag = 'Y';
-            bool ativo = true;
+            var numero1 = 1;
+            var numero2 = 2;
 
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine(idade);
-            Console.WriteLine(nomePessoa);
-            Console.WriteLine(valor);
-            Console.WriteLine(valorDouble);
-            Console.WriteLine(valorFloat);
-            Console.WriteLine(flag);
-            Console.WriteLine(ativo);
+            var soma = numero1 + numero2;
+            Console.WriteLine(soma);
 
-            const string descricao = "Curso CSHARP";
-            Console.WriteLine(descricao);
+            var subtracao = numero2 + numero1;
+            Console.WriteLine(subtracao);
+
+            var multiplicacao = (numero2 * numero1) * 10;
+            Console.WriteLine(multiplicacao);
+
+            var divisao = numero2 / numero1;
+            Console.WriteLine(divisao);
         }
     }
 }

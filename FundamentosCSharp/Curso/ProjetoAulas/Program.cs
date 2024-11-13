@@ -7,14 +7,9 @@
             var numero1 = 1;
             var numero2 = 2;
 
-            var valido = numero2 > numero1 && 6 > 7;
-            Console.WriteLine(valido);
-
-            var valido2 = numero2 > 10 || 6 > 7;
-            Console.WriteLine(valido2);
-
-            var valido3 = !(numero2 > 10);
-            Console.WriteLine(valido3);
+            bool ativo = true;
+            string status = ativo ? "Cadastro Ativo" : "Cadastro inativo";            
+            Console.WriteLine(status);
         }
     }
 }

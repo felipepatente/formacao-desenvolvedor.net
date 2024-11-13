@@ -4,29 +4,21 @@
     {
         static void Main(string[] args)
         {
-            EscreverNome();
-        }
-
-        static string NomeCompleto() 
-        {
-            string primeiroNome = "Felipe";
-            string segundoNome = "Patente";
-
-            return primeiroNome + " " + segundoNome;
-        }
-
-        static int SomaValores()
-        {
-            return 8 + 2;
-        }
-
-        static void EscreverNome()
-        {
-            var nome = NomeCompleto();
-            var soma = SomaValores();
-
-            Console.WriteLine(nome);
+            var soma = SomaValores(3, 5);
             Console.WriteLine(soma);
+
+            var nome = NomeEIdade("Felipe", 31);
+            Console.WriteLine(nome);
+        }
+
+        static int SomaValores(int a, int b)
+        {
+            return a + b;
+        }
+
+        static string NomeEIdade(string nome, int idade)
+        {
+            return "Meu nome é "+ nome +" e tenho "+ idade +" anos";
         }
     }
 }

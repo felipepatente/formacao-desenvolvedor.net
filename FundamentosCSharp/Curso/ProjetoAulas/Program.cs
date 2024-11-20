@@ -1,24 +1,26 @@
-﻿namespace ProjetoAulas
+﻿using System.Collections;
+
+namespace ProjetoAulas
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            var soma = SomaValores(3, 5);
-            Console.WriteLine(soma);
+            var arrayList = new ArrayList();
 
-            var nome = NomeEIdade("Felipe", 31);
-            Console.WriteLine(nome);
-        }
+            arrayList.Add(1);
+            arrayList.Add("Rafael");
+            arrayList.Add(true);
 
-        static int SomaValores(int a, int b)
-        {
-            return a + b;
-        }
+            //Console.WriteLine(arrayList[1]);
 
-        static string NomeEIdade(string nome, int idade)
-        {
-            return "Meu nome é "+ nome +" e tenho "+ idade +" anos";
+            arrayList.RemoveAt(0);
+            arrayList.Clear();
+
+            foreach (var item in arrayList) 
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }

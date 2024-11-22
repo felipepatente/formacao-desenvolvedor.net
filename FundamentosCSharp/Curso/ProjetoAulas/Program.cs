@@ -6,18 +6,20 @@ namespace ProjetoAulas
     {
         static void Main(string[] args)
         {
-            var arrayList = new ArrayList();
+            //var arrayTipadoNumero = new int[3] { 1, 2, 3 };
 
-            arrayList.Add(1);
-            arrayList.Add("Rafael");
-            arrayList.Add(true);
+            var arrayTipadoNumero = new int[3];
 
-            //Console.WriteLine(arrayList[1]);
+            arrayTipadoNumero[0] = 5;
+            arrayTipadoNumero[1] = 5;
+            arrayTipadoNumero[2] = 10;
 
-            arrayList.RemoveAt(0);
-            arrayList.Clear();
+            //aumentado o array para 100
+            Array.Resize(ref arrayTipadoNumero, 7);
 
-            foreach (var item in arrayList) 
+            arrayTipadoNumero[6] = 10;
+
+            foreach (var item in arrayTipadoNumero)
             {
                 Console.WriteLine(item);
             }

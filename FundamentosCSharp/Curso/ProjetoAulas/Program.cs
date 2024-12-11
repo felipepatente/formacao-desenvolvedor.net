@@ -6,29 +6,19 @@ namespace ProjetoAulas
     {
         static void Main(string[] args)
         {
-            var dicionario = new Dictionary<int, string>() 
-            {
-                {5, "Luciano"},
-                {6, "Luciana"},
-            };
+            var queue = new Queue<string>();
+            queue.Enqueue("Felipe");
+            queue.Enqueue("Patente");
 
-            dicionario.Add(100, "Rafael");
-            dicionario[50] = "Curso";
+            Console.WriteLine(queue.Peek());
 
-            var nome = dicionario[100];
-            //Console.WriteLine(nome);
+            Console.WriteLine(queue.Dequeue());
+            Console.WriteLine(queue.Dequeue());
 
-            foreach (var item in dicionario)
-            {                
-                Console.WriteLine($"{item.Key} - {item.Value}");
-            }
-
-            Console.WriteLine("================================");
-
-            Parallel.ForEach(dicionario, dicion =>
-            {
-                Console.WriteLine($"{dicion.Key} - {dicion.Value}");
-            });
+            //foreach (var item in queue)
+            //{
+            //    Console.WriteLine(item);
+            //}
         }
     }
 }

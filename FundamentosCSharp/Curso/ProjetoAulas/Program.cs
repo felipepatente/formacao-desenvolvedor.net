@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Runtime.InteropServices;
 
 namespace ProjetoAulas
 {
@@ -6,19 +7,22 @@ namespace ProjetoAulas
     {
         static void Main(string[] args)
         {
-            var queue = new Queue<string>();
-            queue.Enqueue("Felipe");
-            queue.Enqueue("Patente");
+            var stack = new Stack<string>();
+            stack.Push("Felipe");
+            stack.Push("Patente");
 
-            Console.WriteLine(queue.Peek());
+            var nome  = stack.Pop();
+            var sobreNome = stack.Pop();
 
-            Console.WriteLine(queue.Dequeue());
-            Console.WriteLine(queue.Dequeue());
+            Console.WriteLine(nome);
+            Console.WriteLine(sobreNome);
 
-            //foreach (var item in queue)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            Console.WriteLine("----------");
+
+            foreach (var item in stack)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }

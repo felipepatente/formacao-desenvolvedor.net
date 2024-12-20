@@ -7,22 +7,15 @@ namespace ProjetoAulas
     {
         static void Main(string[] args)
         {
-            var stack = new Stack<string>();
-            stack.Push("Felipe");
-            stack.Push("Patente");
+            var diaDaSemana = 1;
+            var diaDeTrabalho = true;
 
-            var nome  = stack.Pop();
-            var sobreNome = stack.Pop();
-
-            Console.WriteLine(nome);
-            Console.WriteLine(sobreNome);
-
-            Console.WriteLine("----------");
-
-            foreach (var item in stack)
-            {
-                Console.WriteLine(item);
-            }
+            if (diaDaSemana == 0 && diaDeTrabalho)
+                Console.WriteLine("Hoje é domingo");
+            else if (diaDaSemana == 0 && !diaDeTrabalho)
+                Console.WriteLine("Hoje é domingo, mas não é dia de trabalho");
+            else
+                Console.WriteLine("Hoje não é domingo");
         }
     }
 }

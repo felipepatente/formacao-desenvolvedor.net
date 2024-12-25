@@ -7,35 +7,35 @@ namespace ProjetoAulas
     {
         static void Main(string[] args)
         {
-            var diaDaSemana = 4;
-            
+            var diaDaSemana = 0;
 
-            if(diaDaSemana == 1)
-                Console.WriteLine("Domingo");
-            if (diaDaSemana == 2)
-                Console.WriteLine("Segunda");
-            if (diaDaSemana == 3)
-                Console.WriteLine("Terça");
-            if (diaDaSemana == 4)
-                Console.WriteLine("Quarta");
-            if (diaDaSemana == 5)
-                Console.WriteLine("Quinta");
-            if (diaDaSemana == 6)
-                Console.WriteLine("Sexta");
-            if (diaDaSemana == 7)
-                Console.WriteLine("Sabado");
-
-            //DICIONARIO
-            var diasSemana = new Dictionary<int, string>();
-            diasSemana.Add(1, "Domingo");
-            diasSemana.Add(2, "Segunda");
-            diasSemana.Add(3, "Terça");
-            diasSemana.Add(4, "Quarta");
-            diasSemana.Add(5, "Quinta");
-            diasSemana.Add(6, "Sexta");
-            diasSemana.Add(7, "Sabado");
-
-            Console.WriteLine(diasSemana[diaDaSemana]);
+            switch (diaDaSemana) 
+            { 
+                case 0:
+                    Console.WriteLine("Hojé domingo");
+                    break;
+                case 1:
+                    Console.WriteLine("Hoje é segunda");
+                    break;
+                case 2:
+                    Console.WriteLine("Hoje é terça");
+                    break;
+                case 3:
+                    Console.WriteLine("Hoje é quarta");
+                    break;
+                case 4:
+                    Console.WriteLine("Hoje é quinta");
+                    break;
+                case 5:
+                    Console.WriteLine("Hoje é sexta");
+                    break;
+                case 6:
+                    Console.WriteLine("Hoje é sábado");
+                    break;
+                default: 
+                    Console.WriteLine("invalido");
+                    break;
+            }
         }
     }
 }

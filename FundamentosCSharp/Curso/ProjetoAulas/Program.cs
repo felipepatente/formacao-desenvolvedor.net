@@ -7,19 +7,24 @@ namespace ProjetoAulas
     {
         static void Main(string[] args)
         {
-            var lista = new List<string>() { "Rafael", "Curso", "Csharp" };
+            var i = 10;
 
-            foreach(string item in lista)
-            {
-                Console.WriteLine(item);
+            while (i < 10) 
+            { 
+                Console.WriteLine(i);
+                i++;
             }
 
-            Console.WriteLine("-----------");
+            Console.WriteLine("--------------");
 
-            foreach (var letra in "Felipe Patente")
+            var j = 10;
+
+            do
             {
-                Console.WriteLine(letra);
-            }
+                Console.WriteLine(j);
+                j++;
+
+            }while(j < 10);
         }
     }
 }

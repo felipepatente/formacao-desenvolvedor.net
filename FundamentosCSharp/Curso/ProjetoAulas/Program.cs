@@ -9,10 +9,16 @@ namespace ProjetoAulas
         {
             var lista = new List<string>() { "Rafael", "Curso", "Csharp" };
 
-            for(var i=0; i < lista.Count; i++)
+            foreach(string item in lista)
             {
-                var nome = lista[i];
-                Console.WriteLine(nome);
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine("-----------");
+
+            foreach (var letra in "Felipe Patente")
+            {
+                Console.WriteLine(letra);
             }
         }
     }

@@ -7,24 +7,27 @@ namespace ProjetoAulas
     {
         static void Main(string[] args)
         {
-            var i = 10;
+            var i = 0;
 
-            while (i < 10) 
-            { 
-                Console.WriteLine(i);
-                i++;
-            }
-
-            Console.WriteLine("--------------");
-
-            var j = 10;
-
-            do
+            while (i < 5) 
             {
-                Console.WriteLine(j);
-                j++;
 
-            }while(j < 10);
+                if (i < 2)
+                {
+                    Console.WriteLine("Continuando");
+                    i++;
+                    continue;
+                }
+                
+                Console.WriteLine($"var i = {i}");
+                i++;
+
+                //if (i == 2)
+                //{
+                //    Console.WriteLine("Valor de i é igual a 2 (dois)");
+                //    break;
+                //}
+            }
         }
     }
 }

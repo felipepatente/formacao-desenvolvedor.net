@@ -7,27 +7,19 @@ namespace ProjetoAulas
     {
         static void Main(string[] args)
         {
-            var i = 0;
+            AulaClasses();
+        }
 
-            while (i < 5) 
-            {
+        private static void AulaClasses() 
+        {
+            var produto = new Produto();
+            produto.SetId(1);
+            produto.Descricao = "Teclado";
 
-                if (i < 2)
-                {
-                    Console.WriteLine("Continuando");
-                    i++;
-                    continue;
-                }
-                
-                Console.WriteLine($"var i = {i}");
-                i++;
+            produto.ImprimirDescricao();
+            Console.WriteLine(produto.GetId());
 
-                //if (i == 2)
-                //{
-                //    Console.WriteLine("Valor de i é igual a 2 (dois)");
-                //    break;
-                //}
-            }
+            Console.WriteLine(Calculos.SomarNumeros(10, 20));
         }
     }
 }

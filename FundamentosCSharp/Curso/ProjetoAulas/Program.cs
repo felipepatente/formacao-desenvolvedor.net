@@ -7,7 +7,8 @@ namespace ProjetoAulas
     {
         static void Main(string[] args)
         {
-            AulaClasses();
+            //AulaClasses();
+            AulaPropriedadeSomenteLeitura();
         }
 
         private static void AulaClasses() 
@@ -20,6 +21,14 @@ namespace ProjetoAulas
             Console.WriteLine(produto.GetId());
 
             Console.WriteLine(Calculos.SomarNumeros(10, 20));
+        }
+
+        private static void AulaPropriedadeSomenteLeitura()
+        {
+            var produto = new Produto();
+            produto.Descricao = "Mouse";
+            //produto.Estoque = 1;
+            Console.WriteLine(produto.Estoque);
         }
     }
 }

@@ -8,7 +8,8 @@ namespace ProjetoAulas
         static void Main(string[] args)
         {
             //AulaClasses();
-            AulaPropriedadeSomenteLeitura();
+            //AulaPropriedadeSomenteLeitura();
+            AulaHeranca();
         }
 
         private static void AulaClasses() 
@@ -29,6 +30,31 @@ namespace ProjetoAulas
             produto.Descricao = "Mouse";
             //produto.Estoque = 1;
             Console.WriteLine(produto.Estoque);
+        }
+
+        private static void AulaHeranca() 
+        { 
+            var pessoaFisica = new PessoaFisica();
+            pessoaFisica.Id = 1;
+            pessoaFisica.Endereco = "Endereço Teste";
+            pessoaFisica.Cidade = "Cidade Teste";
+            pessoaFisica.Cep = "123456858";
+            pessoaFisica.CPF = "405611008886";
+
+            pessoaFisica.ImprimirDados();
+            pessoaFisica.ImprimirCPF();
+
+            Console.WriteLine("####################################");
+
+            var funcionario = new Funcionario();
+            funcionario.Id = 10;
+            funcionario.Endereco = "Endereço Test";
+            funcionario.Cidade = "Cidade Test";
+            funcionario.Cep = "123456858";
+            funcionario.CPF = "405611008886";
+            
+            funcionario.ImprimirDados();
+            funcionario.ImprimirCPF();
         }
     }
 }

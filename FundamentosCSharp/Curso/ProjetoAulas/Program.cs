@@ -10,7 +10,8 @@ namespace ProjetoAulas
             //AulaClasses();
             //AulaPropriedadeSomenteLeitura();
             //AulaHeranca();
-            AulaClasseSelada();
+            //AulaClasseSelada();
+            AulaClasseAbstrata();
         }
 
         private static void AulaClasses() 
@@ -67,5 +68,13 @@ namespace ProjetoAulas
 
             Console.WriteLine(configuracao.Host);
         }
+
+        private static void AulaClasseAbstrata()
+        {
+            var cachorro = new Cachorro();
+            cachorro.Nome = "Dog";
+            cachorro.ImprimirDados();
+        }
+        
     }
 }

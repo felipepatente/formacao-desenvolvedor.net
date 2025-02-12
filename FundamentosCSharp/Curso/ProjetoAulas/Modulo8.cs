@@ -72,4 +72,24 @@
 
     //A linha abaixo da erro, pois a classe Configuracao é uma claasse sealed, este tipo de classe não é possível ser herdada
     //public class HerdarClasseSelada : Configuracao { }
+
+    public abstract class Animal 
+    {
+        public string Nome { get; set; }
+        public abstract string GetInformacoes();
+
+        public void ImprimirDados()
+        {
+            Console.WriteLine($"Nome do animal: {Nome}");
+            Console.WriteLine($"Informações: {GetInformacoes()}");
+        }
+    }
+
+    public class Cachorro : Animal
+    {
+        public override string GetInformacoes()
+        {
+            return "Cachorro é um bom amigo";
+        }
+    }
 }

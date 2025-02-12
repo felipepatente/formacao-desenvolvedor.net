@@ -64,4 +64,12 @@
     {
         public string Matricula { get; set; }
     }
+
+    public sealed class Configuracao
+    {
+        public string Host { get; set; }
+    }
+
+    //A linha abaixo da erro, pois a classe Configuracao é uma claasse sealed, este tipo de classe não é possível ser herdada
+    //public class HerdarClasseSelada : Configuracao { }
 }

@@ -9,7 +9,8 @@ namespace ProjetoAulas
         {
             //AulaClasses();
             //AulaPropriedadeSomenteLeitura();
-            AulaHeranca();
+            //AulaHeranca();
+            AulaClasseSelada();
         }
 
         private static void AulaClasses() 
@@ -55,6 +56,16 @@ namespace ProjetoAulas
             
             funcionario.ImprimirDados();
             funcionario.ImprimirCPF();
+        }
+
+        private static void AulaClasseSelada()
+        {
+            var configuracao = new Configuracao()
+            {
+                Host = "localhost"
+            };
+
+            Console.WriteLine(configuracao.Host);
         }
     }
 }

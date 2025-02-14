@@ -1,9 +1,9 @@
 ﻿namespace ProjetoAulas
 {
 
-    public static class Calculos 
-    { 
-        public static int SomarNumeros(int a, int b) => a + b; 
+    public static class Calculos
+    {
+        public static int SomarNumeros(int a, int b) => a + b;
     }
 
     public class Produto
@@ -24,8 +24,8 @@
             Console.WriteLine($"{GetId()} - {Descricao}");
         }
 
-        public void SetId(int id) 
-        { 
+        public void SetId(int id)
+        {
             Id = id;
         }
         public int GetId()
@@ -34,14 +34,14 @@
         }
     }
 
-    public class Pessoa 
+    public class Pessoa
     {
         public int Id { get; set; }
         public string Endereco { get; set; }
-        public string Cidade { get; set;}
+        public string Cidade { get; set; }
         public string Cep { get; set; }
 
-        public void ImprimirDados() 
+        public void ImprimirDados()
         {
             Console.WriteLine($"Código: {Id}");
             Console.WriteLine($"Endereco: {Endereco}");
@@ -50,8 +50,8 @@
         }
     }
 
-    public class PessoaFisica : Pessoa 
-    { 
+    public class PessoaFisica : Pessoa
+    {
         public string CPF { get; set; }
 
         public void ImprimirCPF()
@@ -73,7 +73,7 @@
     //A linha abaixo da erro, pois a classe Configuracao é uma claasse sealed, este tipo de classe não é possível ser herdada
     //public class HerdarClasseSelada : Configuracao { }
 
-    public abstract class Animal 
+    public abstract class Animal
     {
         public string Nome { get; set; }
         public abstract string GetInformacoes();
@@ -92,4 +92,46 @@
             return "Cachorro é um bom amigo";
         }
     }
+
+    public class Curso
+    {
+        public int Id { get; set; }
+        public string Descricao { get; set; }
+
+        public override bool Equals(object? obj)
+        {
+            if (obj == null) return false;
+
+            if (obj is Curso curso)
+            {
+                return curso.Id == Id && Descricao == curso.Descricao;
+            }
+
+            return base.Equals(obj);
+        }
+
+        public static bool operator == (Curso a, Curso b)
+        {
+            return a.Equals(b);
+        }
+
+        public static bool operator != (Curso a, Curso b)
+        {
+            return !(a == b);
+        }
+    }
+
+    public record CursoTeste
+    {
+        public int Id { get; set; }
+        public string Descricao { get; set; }
+    }
+
+    public record CursoRecord
+    {
+        public int Id { get; set; }
+        public string Descricao { get; set; }
+    }
+
+    public record CursoRecord2(int Id, string Descricao);
 }

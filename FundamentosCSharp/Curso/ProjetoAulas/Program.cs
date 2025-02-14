@@ -11,7 +11,8 @@ namespace ProjetoAulas
             //AulaPropriedadeSomenteLeitura();
             //AulaHeranca();
             //AulaClasseSelada();
-            AulaClasseAbstrata();
+            //AulaClasseAbstrata();
+            AulaRecord();
         }
 
         private static void AulaClasses() 
@@ -75,6 +76,27 @@ namespace ProjetoAulas
             cachorro.Nome = "Dog";
             cachorro.ImprimirDados();
         }
-        
+
+        private static void AulaRecord() 
+        {
+            var curso1 = new CursoRecord(){Id = 1, Descricao = "Curso"};
+            var curso2 = new CursoRecord(){Id = 1, Descricao = "Curso" };
+
+            Console.WriteLine(curso1 == curso2);
+            Console.WriteLine(curso1.Equals(curso2));
+
+            var curso3 = new CursoRecord2(1, "Curso");
+            var curso4 = new CursoRecord2(1, "Curso");
+
+            Console.WriteLine(curso3 == curso4);
+            Console.WriteLine(curso3.Equals(curso4));
+
+            Console.WriteLine("***************OUTRO EXEMPLO*******************");
+
+            var cursoTeste1 = new CursoTeste() { Id = 1, Descricao = "Curso" };
+            var cursoTeste2 = cursoTeste1 with { Descricao = "Teste Novo" };
+
+            Console.WriteLine($"Id: {cursoTeste2.Id}, Descricao: {cursoTeste2.Descricao}");
+        }
     }
 }

@@ -13,7 +13,8 @@ namespace ProjetoAulas
             //AulaClasseSelada();
             //AulaClasseAbstrata();
             //AulaRecord();
-            AulaInterface();
+            //AulaInterface();
+            Conversores();
         }
 
         private static void AulaClasses() 
@@ -108,6 +109,12 @@ namespace ProjetoAulas
 
             INotificacao notificacao = new NotificacaoFuncionario();
             notificacao.Notificar();            
+        }
+
+        private static void Conversores() 
+        {
+            var conversores = new Conversor();
+            conversores.ConvertAndParse();
         }
     }
 }

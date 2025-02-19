@@ -12,7 +12,8 @@ namespace ProjetoAulas
             //AulaHeranca();
             //AulaClasseSelada();
             //AulaClasseAbstrata();
-            AulaRecord();
+            //AulaRecord();
+            AulaInterface();
         }
 
         private static void AulaClasses() 
@@ -97,6 +98,16 @@ namespace ProjetoAulas
             var cursoTeste2 = cursoTeste1 with { Descricao = "Teste Novo" };
 
             Console.WriteLine($"Id: {cursoTeste2.Id}, Descricao: {cursoTeste2.Descricao}");
+        }
+
+        private static void AulaInterface()
+        {
+            var notificacaoCliente = new NotificacaoCliente();
+            notificacaoCliente.Notificar();
+            notificacaoCliente.NotificarOutros();
+
+            INotificacao notificacao = new NotificacaoFuncionario();
+            notificacao.Notificar();            
         }
     }
 }

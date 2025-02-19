@@ -114,7 +114,8 @@ namespace ProjetoAulas
         private static void Conversores() 
         {
             var conversores = new Conversor();
-            conversores.ConvertAndParse();
+            //conversores.ConvertAndParse();
+            conversores.AulaTryParse();
         }
     }
 }

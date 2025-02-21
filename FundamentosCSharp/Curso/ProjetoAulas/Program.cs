@@ -122,7 +122,8 @@ namespace ProjetoAulas
         private static void TrabalhandoComStrings() 
         {
             var trabalhandoComStrings = new TrabalhandoComStrings();
-            trabalhandoComStrings.ConverterParaLetrasMinusculas();
+            //trabalhandoComStrings.ConverterParaLetrasMinusculas();
+            trabalhandoComStrings.ConverterParaLetrasMaiusculas();
         }
     }
 }

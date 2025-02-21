@@ -14,7 +14,8 @@ namespace ProjetoAulas
             //AulaClasseAbstrata();
             //AulaRecord();
             //AulaInterface();
-            Conversores();
+            //Conversores();
+            TrabalhandoComStrings();
         }
 
         private static void AulaClasses() 
@@ -116,6 +117,12 @@ namespace ProjetoAulas
             var conversores = new Conversor();
             //conversores.ConvertAndParse();
             conversores.AulaTryParse();
+        }
+
+        private static void TrabalhandoComStrings() 
+        {
+            var trabalhandoComStrings = new TrabalhandoComStrings();
+            trabalhandoComStrings.ConverterParaLetrasMinusculas();
         }
     }
 }

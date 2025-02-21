@@ -39,5 +39,17 @@
             string apenasNome = nomeArquivo[..^4];
             Console.WriteLine(apenasNome);
         }
+
+        public void AulaContains()
+        {
+            string nomeArquivo = "2022_12_01_backup.bak";
+            //Console.Write($"Contem nome: {nomeArquivo.Contains("backup")}");
+
+            if(nomeArquivo.Contains("backup"))
+                Console.WriteLine("Encontrou");
+            else
+                Console.WriteLine("Não encontrou");
+
+        }
     }
 }

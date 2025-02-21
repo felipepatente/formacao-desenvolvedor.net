@@ -15,5 +15,12 @@
             var linha = Console.ReadLine();
             Console.WriteLine(linha?.ToUpper());
         }
+
+        public void AulaSubstring()
+        {
+            Console.WriteLine("Favor digitar alguma informação: ");
+            var linha = Console.ReadLine();
+            Console.WriteLine(linha?.Substring(0,6));
+        }
     }
 }

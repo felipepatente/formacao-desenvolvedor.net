@@ -123,7 +123,8 @@ namespace ProjetoAulas
         {
             var trabalhandoComStrings = new TrabalhandoComStrings();
             //trabalhandoComStrings.ConverterParaLetrasMinusculas();
-            trabalhandoComStrings.ConverterParaLetrasMaiusculas();
+            //trabalhandoComStrings.ConverterParaLetrasMaiusculas();
+            trabalhandoComStrings.AulaSubstring();
         }
     }
 }

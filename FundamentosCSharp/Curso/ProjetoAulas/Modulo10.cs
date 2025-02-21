@@ -51,5 +51,14 @@
                 Console.WriteLine("Não encontrou");
 
         }
+
+        public void AulaTrim()
+        {
+            string teste = "**RAFAEL ALMEIDA**";
+
+            Console.WriteLine($"TOTAL: {teste.Trim('*')}");
+            Console.WriteLine($"INICIO: {teste.TrimStart('*')}");
+            Console.WriteLine($"FINAL: {teste.TrimEnd('*')}");
+        }
     }
 }

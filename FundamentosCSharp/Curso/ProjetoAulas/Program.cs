@@ -126,7 +126,8 @@ namespace ProjetoAulas
             //trabalhandoComStrings.ConverterParaLetrasMaiusculas();
             //trabalhandoComStrings.AulaSubstring();
             //trabalhandoComStrings.AulaRange();
-            trabalhandoComStrings.AulaContains();
+            //trabalhandoComStrings.AulaContains();
+            trabalhandoComStrings.AulaTrim();
         }
     }
 }

@@ -128,7 +128,8 @@ namespace ProjetoAulas
             //trabalhandoComStrings.AulaRange();
             //trabalhandoComStrings.AulaContains();
             //trabalhandoComStrings.AulaTrim();
-            trabalhandoComStrings.AulaStartWithEndsWith();
+            //trabalhandoComStrings.AulaStartWithEndsWith();
+            trabalhandoComStrings.AulaReplace();
         }
     }
 }

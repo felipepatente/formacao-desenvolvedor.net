@@ -69,5 +69,12 @@
             Console.WriteLine($"FINAL: {teste.EndsWith("Csharp2")}");
         }
 
+        public void AulaReplace()
+        {
+            string teste = "Curso Csharp";
+            Console.WriteLine(teste);
+            Console.WriteLine(teste.Replace("Csharp", "C#"));
+        }
+
     }
 }

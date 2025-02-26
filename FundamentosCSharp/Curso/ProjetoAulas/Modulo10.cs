@@ -60,5 +60,14 @@
             Console.WriteLine($"INICIO: {teste.TrimStart('*')}");
             Console.WriteLine($"FINAL: {teste.TrimEnd('*')}");
         }
+
+        public void AulaStartWithEndsWith()
+        {
+            string teste = "Curso Csharp";
+
+            Console.WriteLine($"INICIO: {teste.StartsWith("Curso")}");
+            Console.WriteLine($"FINAL: {teste.EndsWith("Csharp2")}");
+        }
+
     }
 }

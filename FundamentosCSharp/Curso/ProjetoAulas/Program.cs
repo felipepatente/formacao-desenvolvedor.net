@@ -129,7 +129,8 @@ namespace ProjetoAulas
             //trabalhandoComStrings.AulaContains();
             //trabalhandoComStrings.AulaTrim();
             //trabalhandoComStrings.AulaStartWithEndsWith();
-            trabalhandoComStrings.AulaReplace();
+            //trabalhandoComStrings.AulaReplace();
+            trabalhandoComStrings.AulaLength();
         }
     }
 }

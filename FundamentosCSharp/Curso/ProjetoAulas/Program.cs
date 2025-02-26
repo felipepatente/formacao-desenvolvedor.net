@@ -15,7 +15,8 @@ namespace ProjetoAulas
             //AulaRecord();
             //AulaInterface();
             //Conversores();
-            TrabalhandoComStrings();
+            //TrabalhandoComStrings();
+            TrabalhandoComDatas();
         }
 
         private static void AulaClasses() 
@@ -131,6 +132,12 @@ namespace ProjetoAulas
             //trabalhandoComStrings.AulaStartWithEndsWith();
             //trabalhandoComStrings.AulaReplace();
             trabalhandoComStrings.AulaLength();
+        }
+
+        private static void TrabalhandoComDatas() 
+        {
+            var trabalhandoComDatas = new TrabalhandoComDatas();
+            trabalhandoComDatas.AulaDateTime();
         }
     }
 }

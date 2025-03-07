@@ -137,7 +137,8 @@ namespace ProjetoAulas
         private static void TrabalhandoComDatas() 
         {
             var trabalhandoComDatas = new TrabalhandoComDatas();
-            trabalhandoComDatas.AulaDateTime();
+            //trabalhandoComDatas.AulaDateTime();
+            trabalhandoComDatas.AulaSubtraindoDatas();
         }
     }
 }

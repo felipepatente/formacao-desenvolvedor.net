@@ -140,7 +140,8 @@ namespace ProjetoAulas
             //trabalhandoComDatas.AulaDateTime();
             //trabalhandoComDatas.AulaSubtraindoDatas();
             //trabalhandoComDatas.AulaAdicionandoDiasMesAno();
-            trabalhandoComDatas.AulaAdicionandoHoraMinutoSegundos();
+            //trabalhandoComDatas.AulaAdicionandoHoraMinutoSegundos();
+            trabalhandoComDatas.AulaDiaDaSemana();
         }
     }
 }

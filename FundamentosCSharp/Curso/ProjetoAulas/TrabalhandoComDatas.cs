@@ -59,5 +59,12 @@
             Console.WriteLine(date1.AddMinutes(20).ToString("HH:mm:ss"));
             Console.WriteLine(date1.AddSeconds(30).ToString("HH:mm:ss"));
         }
+
+        public void AulaDiaDaSemana()
+        {
+            var date1 = DateTime.Now;
+
+            Console.WriteLine(date1.DayOfWeek);
+        }
     }
 }

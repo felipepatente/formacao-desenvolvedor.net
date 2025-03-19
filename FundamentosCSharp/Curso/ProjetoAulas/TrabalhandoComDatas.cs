@@ -66,5 +66,13 @@
 
             Console.WriteLine(date1.DayOfWeek);
         }
+        
+        public void AulaDateOnly()
+        {
+            //var somentaData = new DateOnly(2022, 12, 2);
+            var somentaData = DateOnly.Parse("2022-12-02");
+
+            Console.WriteLine(somentaData);
+        }
     }
 }

@@ -16,7 +16,8 @@ namespace ProjetoAulas
             //AulaInterface();
             //Conversores();
             //TrabalhandoComStrings();
-            TrabalhandoComDatas();
+            //TrabalhandoComDatas();
+            TrabalhandoComExcecoes();
         }
 
         private static void AulaClasses() 
@@ -144,6 +145,12 @@ namespace ProjetoAulas
             //trabalhandoComDatas.AulaDiaDaSemana();
             //trabalhandoComDatas.AulaDateOnly();
             trabalhandoComDatas.AulaTimeOnly();
+        }
+
+        private static void TrabalhandoComExcecoes() 
+        {
+            var trabalhandoComExcecoes = new TrabalhandoComExcecoes();
+            trabalhandoComExcecoes.AulaGerandoException();
         }
     }
 }

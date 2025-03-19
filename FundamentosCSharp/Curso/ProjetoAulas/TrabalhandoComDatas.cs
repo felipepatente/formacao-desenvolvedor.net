@@ -36,5 +36,18 @@
             Console.WriteLine(Math.Abs(diff.TotalDays).ToString("f0"));
             Console.WriteLine(Math.Abs(diff.TotalHours).ToString("f0"));
         }
+
+        public void AulaAdicionandoDiasMesAno()
+        {
+            var date1 = DateTime.Now;
+
+            Console.WriteLine(date1.AddDays(10).ToString("dd-MM-yyyy HH:mm:ss"));
+            Console.WriteLine(date1.AddMonths(3).ToString("dd-MM-yyyy HH:mm:ss"));
+            Console.WriteLine(date1.AddYears(3).ToString("dd-MM-yyyy HH:mm:ss"));
+
+            Console.WriteLine(date1.AddDays(10));
+            Console.WriteLine(date1.AddMonths(3));
+            Console.WriteLine(date1.AddYears(3));
+        }
     }
 }

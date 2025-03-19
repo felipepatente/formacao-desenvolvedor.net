@@ -49,5 +49,15 @@
             Console.WriteLine(date1.AddMonths(3));
             Console.WriteLine(date1.AddYears(3));
         }
+
+        public void AulaAdicionandoHoraMinutoSegundos()
+        {
+            var date1 = DateTime.Now;
+
+            Console.WriteLine(date1.ToString("dd-MM-yyyy"));
+            Console.WriteLine(date1.AddHours(2).ToString("HH:mm:ss"));
+            Console.WriteLine(date1.AddMinutes(20).ToString("HH:mm:ss"));
+            Console.WriteLine(date1.AddSeconds(30).ToString("HH:mm:ss"));
+        }
     }
 }

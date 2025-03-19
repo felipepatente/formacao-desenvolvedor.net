@@ -139,7 +139,8 @@ namespace ProjetoAulas
             var trabalhandoComDatas = new TrabalhandoComDatas();
             //trabalhandoComDatas.AulaDateTime();
             //trabalhandoComDatas.AulaSubtraindoDatas();
-            trabalhandoComDatas.AulaAdicionandoDiasMesAno();
+            //trabalhandoComDatas.AulaAdicionandoDiasMesAno();
+            trabalhandoComDatas.AulaAdicionandoHoraMinutoSegundos();
         }
     }
 }

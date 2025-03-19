@@ -74,5 +74,14 @@
 
             Console.WriteLine(somentaData);
         }
+
+        public void AulaTimeOnly()
+        {
+            var outraVariavel = new TimeOnly(12, 23, 25, 0);
+            var somentaHora = TimeOnly.Parse("23:12:58");
+
+            Console.WriteLine(outraVariavel.ToString("HH:mm:ss"));
+            Console.WriteLine(somentaHora.ToString("HH:mm:ss"));
+        }
     }
 }

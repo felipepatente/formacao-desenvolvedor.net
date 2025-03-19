@@ -142,7 +142,8 @@ namespace ProjetoAulas
             //trabalhandoComDatas.AulaAdicionandoDiasMesAno();
             //trabalhandoComDatas.AulaAdicionandoHoraMinutoSegundos();
             //trabalhandoComDatas.AulaDiaDaSemana();
-            trabalhandoComDatas.AulaDateOnly();
+            //trabalhandoComDatas.AulaDateOnly();
+            trabalhandoComDatas.AulaTimeOnly();
         }
     }
 }

@@ -150,7 +150,8 @@ namespace ProjetoAulas
         private static void TrabalhandoComExcecoes() 
         {
             var trabalhandoComExcecoes = new TrabalhandoComExcecoes();
-            trabalhandoComExcecoes.AulaGerandoException();
+            //trabalhandoComExcecoes.AulaGerandoException();
+            trabalhandoComExcecoes.AulaTratandoException();
         }
     }
 }

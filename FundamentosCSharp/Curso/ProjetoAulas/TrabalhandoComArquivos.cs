@@ -31,5 +31,13 @@
 
             ler.Close();
         }
+
+        public void AulaExcluindoArquivo()
+        {
+            var caminho = "C:\\Users\\Felipe\\Downloads\\Cadastro.txt";
+
+            if (File.Exists(caminho))
+                File.Delete(caminho);
+        }
     }
 }

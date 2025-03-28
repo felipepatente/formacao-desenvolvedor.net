@@ -159,7 +159,8 @@ namespace ProjetoAulas
         {
             var trabalhandoComArquivos = new TrabalhandoComArquivos();
             //trabalhandoComArquivos.AulaCriandoArquivo();
-            trabalhandoComArquivos.AulaLendoArquivo();
+            //trabalhandoComArquivos.AulaLendoArquivo();
+            trabalhandoComArquivos.AulaExcluindoArquivo();
         }
     }
 }

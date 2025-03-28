@@ -168,8 +168,8 @@ namespace ProjetoAulas
         {
             var trabalhandoComLinq = new TrabalhandoComLinq();
             //trabalhandoComLinq.AulaWhere();
-            trabalhandoComLinq.AulaOrdenacao();
-        }
-    
+            //trabalhandoComLinq.AulaOrdenacao();
+            trabalhandoComLinq.AulaTake();
+        }    
     }
 }

@@ -18,7 +18,8 @@ namespace ProjetoAulas
             //TrabalhandoComStrings();
             //TrabalhandoComDatas();
             //TrabalhandoComExcecoes();
-            TrabalhandoComArquivos();
+            //TrabalhandoComArquivos();
+            TrabalhandoComLinq();
         }
 
         private static void AulaClasses() 
@@ -162,5 +163,12 @@ namespace ProjetoAulas
             //trabalhandoComArquivos.AulaLendoArquivo();
             trabalhandoComArquivos.AulaExcluindoArquivo();
         }
+
+        private static void TrabalhandoComLinq() 
+        {
+            var trabalhandoComLinq = new TrabalhandoComLinq();
+            trabalhandoComLinq.AulaWhere();
+        }
+    
     }
 }

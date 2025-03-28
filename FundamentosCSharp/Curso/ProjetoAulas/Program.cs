@@ -17,7 +17,8 @@ namespace ProjetoAulas
             //Conversores();
             //TrabalhandoComStrings();
             //TrabalhandoComDatas();
-            TrabalhandoComExcecoes();
+            //TrabalhandoComExcecoes();
+            TrabalhandoComArquivos();
         }
 
         private static void AulaClasses() 
@@ -152,6 +153,12 @@ namespace ProjetoAulas
             var trabalhandoComExcecoes = new TrabalhandoComExcecoes();
             //trabalhandoComExcecoes.AulaGerandoException();
             trabalhandoComExcecoes.AulaTratandoException();
+        }
+
+        private static void TrabalhandoComArquivos()
+        {
+            var trabalhandoComArquivos = new TrabalhandoComArquivos();
+            trabalhandoComArquivos.AulaCriandoArquivo();
         }
     }
 }

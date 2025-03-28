@@ -15,6 +15,12 @@
                             select c;
 
             resultado.ToList().ForEach(p => { Console.WriteLine(p); });
+
+            var numeros = new int[] { 10, 6, 5, 50, 15, 2 };
+
+            var resultadoNumeros = numeros.Where(n => n >= 10);
+
+            resultadoNumeros.ToList().ForEach(n => Console.WriteLine(n));
         }
     }
 }

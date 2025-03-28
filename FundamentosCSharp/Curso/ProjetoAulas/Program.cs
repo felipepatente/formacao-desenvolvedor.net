@@ -167,7 +167,8 @@ namespace ProjetoAulas
         private static void TrabalhandoComLinq() 
         {
             var trabalhandoComLinq = new TrabalhandoComLinq();
-            trabalhandoComLinq.AulaWhere();
+            //trabalhandoComLinq.AulaWhere();
+            trabalhandoComLinq.AulaOrdenacao();
         }
     
     }

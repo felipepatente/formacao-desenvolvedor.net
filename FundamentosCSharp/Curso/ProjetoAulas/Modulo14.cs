@@ -22,5 +22,17 @@
 
             resultadoNumeros.ToList().ForEach(n => Console.WriteLine(n));
         }
+
+        public void AulaOrdenacao()
+        {
+            var numeros = new int[] { 10, 6, 5, 50, 15, 2 };
+            var resultado = numeros.OrderBy(n => n);
+
+            resultado.ToList().ForEach(n => Console.WriteLine(n));
+            Console.WriteLine("------------------------");
+            numeros.OrderBy(n => n).ToList().ForEach(n => Console.WriteLine(n));
+            Console.WriteLine("------------------------");
+            numeros.OrderByDescending(n => n).ToList().ForEach(n => Console.WriteLine(n));
+        }
     }
 }

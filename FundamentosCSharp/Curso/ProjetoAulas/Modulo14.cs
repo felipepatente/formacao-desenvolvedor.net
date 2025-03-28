@@ -42,5 +42,15 @@
 
             resultado.ToList().ForEach(n => Console.WriteLine(n));
         }
+
+        public void AulaCount()
+        {
+            var numeros = new int[] { 10, 6, 5, 50, 15, 2, 40 };
+
+            //var resultado = numeros.Count();
+            var resultado = numeros.Count(n => n > 10);
+
+            Console.WriteLine(resultado);
+        }
     }
 }

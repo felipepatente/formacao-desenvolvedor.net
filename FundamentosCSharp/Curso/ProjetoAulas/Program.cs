@@ -169,7 +169,8 @@ namespace ProjetoAulas
             var trabalhandoComLinq = new TrabalhandoComLinq();
             //trabalhandoComLinq.AulaWhere();
             //trabalhandoComLinq.AulaOrdenacao();
-            trabalhandoComLinq.AulaTake();
+            //trabalhandoComLinq.AulaTake();
+            trabalhandoComLinq.AulaCount();
         }    
     }
 }

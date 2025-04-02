@@ -52,5 +52,15 @@
 
             Console.WriteLine(resultado);
         }
+
+        public void AulaFirstEFirstOrDefault()
+        {
+            var numeros = new int[] { 10, 6, 5, 50, 15, 2, 40 };
+            
+            //var resultado = numeros.First(n => n > 15);
+            var resultado = numeros.FirstOrDefault(n => n > 150, -99);
+
+            Console.WriteLine(resultado);
+        }
     }
 }

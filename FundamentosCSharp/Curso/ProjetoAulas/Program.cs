@@ -170,7 +170,8 @@ namespace ProjetoAulas
             //trabalhandoComLinq.AulaWhere();
             //trabalhandoComLinq.AulaOrdenacao();
             //trabalhandoComLinq.AulaTake();
-            trabalhandoComLinq.AulaCount();
+            //trabalhandoComLinq.AulaCount();
+            trabalhandoComLinq.AulaFirstEFirstOrDefault();
         }    
     }
 }

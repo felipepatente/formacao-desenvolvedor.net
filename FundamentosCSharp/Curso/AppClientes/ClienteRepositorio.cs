@@ -1,8 +1,37 @@
-﻿namespace AppClientes
+﻿using System.Text.Json;
+
+namespace AppClientes
 {
     public class ClienteRepositorio
     {
         public List<Cliente> clientes = new List<Cliente>();
+
+        public void GravarDadosClientes() 
+        {
+            var caminho = "C:\\Users\\Felipe\\Downloads\\clientes.txt";
+
+            var json = JsonSerializer.Serialize(clientes);
+
+            //var escrever = new StreamWriter(caminho, true);
+            //escrever.Write(json);
+            //escrever.Close();
+
+            File.WriteAllText(caminho, json.ToString());
+        }
+
+        public void LerDadosClientes()
+        {
+            var caminho = "C:\\Users\\Felipe\\Downloads\\clientes.txt";
+
+            if (File.Exists(caminho)) 
+            {
+                var dados = File.ReadAllText(caminho);
+
+                var clientesArquivos = JsonSerializer.Deserialize<List<Cliente>>(dados);
+
+                clientes.AddRange(clientesArquivos);
+            }
+        }
 
         public void ImprimirCliente(Cliente cliente)
         {

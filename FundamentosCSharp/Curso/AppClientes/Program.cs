@@ -12,6 +12,8 @@ namespace AppClientes
             Thread.CurrentThread.CurrentCulture = cultura;
             Thread.CurrentThread.CurrentUICulture = cultura;
 
+            _clienteRepositorio.LerDadosClientes();
+
             while (true)
             {
                 Menu();
@@ -69,6 +71,7 @@ namespace AppClientes
                     }
                 case 5:
                     {
+                        _clienteRepositorio.GravarDadosClientes();
                         Environment.Exit(0);
                         break;
                     }

@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Felipe\\Documents\\GitHub\\formacao-desenvolvedor.net\\FundamentosCSharp\\Curso\\AluraCriandoSuaPrimeiraAplicacao\\AluraCriandoSuaPrimeiraAplicacao.csproj",
-      "projectName": "AluraCriandoSuaPrimeiraAplicacao",
-      "projectPath": "C:\\Users\\Felipe\\Documents\\GitHub\\formacao-desenvolvedor.net\\FundamentosCSharp\\Curso\\AluraCriandoSuaPrimeiraAplicacao\\AluraCriandoSuaPrimeiraAplicacao.csproj",
+      "projectUniqueName": "C:\\Users\\Felipe\\Documents\\GitHub\\formacao-desenvolvedor.net\\FundamentosCSharp\\Curso\\AluraCriandoSuaPrimeiraAplicacao\\FormacaoAluraProgramandoComOrientacaoObjetos.csproj",
+      "projectName": "FormacaoAluraProgramandoComOrientacaoObjetos",
+      "projectPath": "C:\\Users\\Felipe\\Documents\\GitHub\\formacao-desenvolvedor.net\\FundamentosCSharp\\Curso\\AluraCriandoSuaPrimeiraAplicacao\\FormacaoAluraProgramandoComOrientacaoObjetos.csproj",
       "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Felipe\\Documents\\GitHub\\formacao-desenvolvedor.net\\FundamentosCSharp\\Curso\\AluraCriandoSuaPrimeiraAplicacao\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,4 +1,5 @@
-﻿using static System.Net.WebRequestMethods;
+﻿using FormacaoAluraProgramandoComOrientacaoObjetos.DominandoOrientacaoObjeto;
+using static System.Net.WebRequestMethods;
 
 namespace FormacaoAluraProgramandoComOrientacaoObjetos
 {
@@ -7,7 +8,8 @@ namespace FormacaoAluraProgramandoComOrientacaoObjetos
         static void Main(string[] args)
         {
             //MostrandoTextoEstiloso();
-            MostrandoListaSemUsoDeLoop();
+            //MostrandoListaSemUsoDeLoop();
+            ExecutandoMenu();
         }
 
         static void MostrandoTextoEstiloso()
@@ -31,6 +33,11 @@ namespace FormacaoAluraProgramandoComOrientacaoObjetos
 
             Console.WriteLine(string.Join(", ", nomes));
         }
-        
+
+        static void ExecutandoMenu() 
+        {
+            var menu = new MenuFilho();
+            menu.Executar();
+        }
     }
 }

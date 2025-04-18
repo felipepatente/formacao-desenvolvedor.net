@@ -6,7 +6,8 @@ namespace FormacaoAluraProgramandoComOrientacaoObjetos
     {
         static void Main(string[] args)
         {
-            MostrandoTextoEstiloso();
+            //MostrandoTextoEstiloso();
+            MostrandoListaSemUsoDeLoop();
         }
 
         static void MostrandoTextoEstiloso()
@@ -23,5 +24,13 @@ namespace FormacaoAluraProgramandoComOrientacaoObjetos
                     ╚═╝░░░░░╚═╝░╚═════╝░╚═╝░░░╚═╝░░░░╚════╝░  ░░░╚═╝░░░░╚════╝░╚═╝░░░░░
              ");
         }
+    
+        static void MostrandoListaSemUsoDeLoop()
+        {
+            var nomes = new List<string>() { "Felipe", "Roberto", "Rose", "Jennie", "Tzui", "Mono" };
+
+            Console.WriteLine(string.Join(", ", nomes));
+        }
+        
     }
 }

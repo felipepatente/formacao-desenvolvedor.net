@@ -1,0 +1,15 @@
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\bin\Debug\net7.0\AluraCriandoSuaPrimeiraAplicacao.exe
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\bin\Debug\net7.0\AluraCriandoSuaPrimeiraAplicacao.deps.json
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\bin\Debug\net7.0\AluraCriandoSuaPrimeiraAplicacao.runtimeconfig.json
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\bin\Debug\net7.0\AluraCriandoSuaPrimeiraAplicacao.dll
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\bin\Debug\net7.0\AluraCriandoSuaPrimeiraAplicacao.pdb
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\obj\Debug\net7.0\AluraCriandoSuaPrimeiraAplicacao.csproj.AssemblyReference.cache
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\obj\Debug\net7.0\AluraCriandoSuaPrimeiraAplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\obj\Debug\net7.0\AluraCriandoSuaPrimeiraAplicacao.AssemblyInfoInputs.cache
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\obj\Debug\net7.0\AluraCriandoSuaPrimeiraAplicacao.AssemblyInfo.cs
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\obj\Debug\net7.0\AluraCriandoSuaPrimeiraAplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\obj\Debug\net7.0\AluraCriandoSuaPrimeiraAplicacao.dll
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\obj\Debug\net7.0\refint\AluraCriandoSuaPrimeiraAplicacao.dll
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\obj\Debug\net7.0\AluraCriandoSuaPrimeiraAplicacao.pdb
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\obj\Debug\net7.0\AluraCriandoSuaPrimeiraAplicacao.genruntimeconfig.cache
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\AluraCriandoSuaPrimeiraAplicacao\obj\Debug\net7.0\ref\AluraCriandoSuaPrimeiraAplicacao.dll

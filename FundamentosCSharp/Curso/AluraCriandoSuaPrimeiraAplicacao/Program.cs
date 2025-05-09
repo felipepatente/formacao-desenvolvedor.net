@@ -10,6 +10,7 @@ namespace FormacaoAluraProgramandoComOrientacaoObjetos
             //MostrandoTextoEstiloso();
             //MostrandoListaSemUsoDeLoop();
             ExecutandoMenu();
+
         }
 
         static void MostrandoTextoEstiloso()

@@ -9,7 +9,8 @@ namespace FormacaoAluraProgramandoComOrientacaoObjetos
         {
             //MostrandoTextoEstiloso();
             //MostrandoListaSemUsoDeLoop();
-            ExecutandoMenu();
+            //ExecutandoMenu();
+            ProgramRequisicao().Wait();
 
         }
 
@@ -40,5 +41,16 @@ namespace FormacaoAluraProgramandoComOrientacaoObjetos
             var menu = new MenuFilho();
             menu.Executar();
         }
+
+        static async Task ProgramRequisicao()
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                string resposta = await client.GetStringAsync("https://guilhermeonrails.github.io/api-csharp-songs/songs.json");
+
+                Console.WriteLine(resposta);
+            }
+        }
+    
     }
 }

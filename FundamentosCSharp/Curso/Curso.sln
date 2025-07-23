@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoAulas", "ProjetoAula
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormacaoAluraProgramandoComOrientacaoObjetos", "AluraCriandoSuaPrimeiraAplicacao\FormacaoAluraProgramandoComOrientacaoObjetos.csproj", "{5D7FDDBD-4EC4-4400-9E86-74E2E1FFD42C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysColecoes", "ArraysColecoes\ArraysColecoes.csproj", "{3BABB00D-82FC-4464-A071-3A414B4449F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5D7FDDBD-4EC4-4400-9E86-74E2E1FFD42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D7FDDBD-4EC4-4400-9E86-74E2E1FFD42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D7FDDBD-4EC4-4400-9E86-74E2E1FFD42C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BABB00D-82FC-4464-A071-3A414B4449F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BABB00D-82FC-4464-A071-3A414B4449F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BABB00D-82FC-4464-A071-3A414B4449F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BABB00D-82FC-4464-A071-3A414B4449F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

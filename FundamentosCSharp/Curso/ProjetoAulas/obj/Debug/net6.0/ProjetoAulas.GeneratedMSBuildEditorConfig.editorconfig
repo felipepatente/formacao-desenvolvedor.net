@@ -9,3 +9,7 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjetoAulas
 build_property.ProjectDir = C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ProjetoAulas\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 

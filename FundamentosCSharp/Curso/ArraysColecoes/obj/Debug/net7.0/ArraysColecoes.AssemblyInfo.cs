@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArraysColecoes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30bf423fed5aacf6ea5c866ccd97e857e1db9379")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArraysColecoes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArraysColecoes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

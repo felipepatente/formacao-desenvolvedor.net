@@ -1,0 +1,15 @@
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\bin\Debug\net7.0\ArraysColecoes.exe
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\bin\Debug\net7.0\ArraysColecoes.deps.json
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\bin\Debug\net7.0\ArraysColecoes.runtimeconfig.json
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\bin\Debug\net7.0\ArraysColecoes.dll
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\bin\Debug\net7.0\ArraysColecoes.pdb
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\obj\Debug\net7.0\ArraysColecoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\obj\Debug\net7.0\ArraysColecoes.AssemblyInfoInputs.cache
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\obj\Debug\net7.0\ArraysColecoes.AssemblyInfo.cs
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\obj\Debug\net7.0\ArraysColecoes.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\obj\Debug\net7.0\ArraysColecoes.sourcelink.json
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\obj\Debug\net7.0\ArraysColecoes.dll
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\obj\Debug\net7.0\refint\ArraysColecoes.dll
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\obj\Debug\net7.0\ArraysColecoes.pdb
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\obj\Debug\net7.0\ArraysColecoes.genruntimeconfig.cache
+C:\Users\Felipe\Documents\GitHub\formacao-desenvolvedor.net\FundamentosCSharp\Curso\ArraysColecoes\obj\Debug\net7.0\ref\ArraysColecoes.dll
